@@ -1,0 +1,1159 @@
+
+/* general */
+* {
+    scroll-behavior: smooth;
+    scrollbar-width: thin;
+}
+
+
+.font-size-12 {
+    font-size: 12px;
+}
+
+.font-size-13 {
+    font-size: 13px;
+}
+
+.font-size-14 {
+    font-size: 14px;
+}
+
+
+.font-size-15 {
+    font-size: 15px !important;
+}
+
+
+.font-size-16 {
+    font-size: 16px !important;
+}
+
+
+.font-weight-500 {
+    font-weight: 500 !important;
+}
+
+.font-weight-600 {
+    font-weight: 600 !important;
+}
+
+
+.page-content {
+    background: url('../images/bgs/Dashboard-background.png');
+    background-position: center;
+    background-size: contain;
+    background-repeat: repeat;
+    
+}
+
+[dir] .footer {
+    background-color:transparent !important;
+    border:none !important;
+}
+
+.mdk-drawer-layout .container {
+    max-width: 95%;
+}
+
+.carousal-buttons-wrapper:focus-visible{
+    color: transparent !important;
+}
+
+
+/* transition classes and content */
+.card, button, a {
+    transition: 0.3s all ease-in-out !important;
+}
+
+.mdk-drawer-layout * {
+    transition: 0.4s all ease-in-out !important;
+}
+
+
+.mdk-drawer-layout * {
+    transition: 0.4s all ease-in-out !important;
+}
+
+input, select, label, span {
+    transition: 0.4s all ease-in-out !important;
+
+}
+
+
+
+.bg-image {
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+
+}
+
+
+
+.pos-relative {
+    position: relative !important;
+}
+
+.pos-abs {
+    position: absolute !important;
+}
+
+
+
+.border-radius-3 {
+    border-radius: 3px;
+}
+
+.border-radius-4 {
+    border-radius: 4px;
+}
+
+.border-radius-5 {
+    border-radius: 5px;
+}
+
+
+/* ---------------------- package plan classes */
+
+
+.custom-horizontal-carousal {
+    white-space: nowrap;
+    width: 100%;
+    overflow-x: scroll;
+    position:relative;
+    overflow-y: hidden;
+}
+
+
+
+/* hide scrollbar in this carousal */
+
+ /* Hide scrollbar for Chrome, Safari and Opera */
+/* .custom-horizontal-carousal::-webkit-scrollbar {
+  display: none;
+} */
+
+/* Hide scrollbar for IE, Edge and Firefox */
+/* .custom-horizontal-carousal {
+  -ms-overflow-style: none;  
+  scrollbar-width: none;  
+} */
+
+
+
+
+.carousal-scroll-button-right {
+    position: absolute;
+    top: 38%;
+    right: 38px;
+    font-size: 18px;
+    color: white;
+    box-shadow: 0px 0px 3px 0px green;
+    padding: 20px 6px !important;
+    border-radius: 50%;
+    z-index: 1;
+}
+
+
+
+.carousal-scroll-button-left {
+    position: absolute;
+    top: 38%;
+    left: 5px;
+    font-size: 18px;
+    color: white;
+    box-shadow: 0px 0px 3px 0px green;
+    padding: 20px 6px !important;
+    border-radius: 50%;
+    z-index: 1;
+}
+
+
+
+
+.carousal-buttons-wrapper {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    display: block;
+}
+
+
+
+.carousal-cols {
+    white-space: initial;
+    width: 300px;
+    margin-right: 10px;
+    cursor: pointer;
+    display: inline-block !important;
+}
+
+.carousal-cols >.card {
+    border: 2px solid #dfe2e6 !important;
+}
+
+.carousal-cols.active > .card {
+    border: 2px solid #77c13a !important;
+    box-shadow: 0px 0px 0px 0px #77c13a;
+}
+
+
+.carousal-cols .card:hover, .carousal-cols .card:focus {
+    border: 1px solid skyblue;
+}
+
+
+.carousal-cols div input {
+    width: 140px;
+    margin: auto;
+    margin-top: 5px;
+
+}
+
+
+.carousal-card-heading {
+    font-size: 16px;
+}
+
+
+
+.meal-breakfast, .meal-launch, .meal-dinner, .meal-snack, .meal-postworkout, .meal-preworkout {
+    display: none;
+}
+
+
+
+
+
+
+/* ---------------------------- menu management */
+
+.custom-control-label-checkbox::after {
+    top: 4px;
+}
+
+
+.custom-control-label-checkbox::before {
+    top:4px;
+}
+
+
+
+
+
+
+/* ---------------------------- customer page */
+
+
+.customer-meal-single-hr {
+    border-color: #00bcc2 !important;
+    width: 50% !important;
+    margin:auto;
+}
+
+
+
+
+/* -------------------- menu management schedule cards */
+
+.custom-schedule-cards {
+    width: 320px;
+}
+
+.custom-schedule-cards h4 {
+    font-size: 18px;
+    overflow: hidden;
+    margin-top: 10px;
+    text-overflow: ellipsis;
+    display: -webkit-box;
+    -webkit-line-clamp: 1;
+    /* number of lines to show */
+    -webkit-box-orient: vertical;
+}
+
+/* dinner - or sumn else */
+.custom-schedule-cards h6 {
+    color:#e4a93c;
+}
+
+
+/* ingredent */
+.custom-schedule-cards h5 {
+    font-size: 14px;
+    
+}
+
+/* ingredient content */
+.custom-schedule-cards p {
+    height: 39px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    display: -webkit-box;
+    -webkit-line-clamp: 2;
+    /* number of lines to show */
+    -webkit-box-orient: vertical;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* ----------------------- signup page */
+
+
+/* Hide all steps by default: */
+.tab {
+    display: none;
+}
+
+/* Make circles that indicate the steps of the form: */
+.step {
+    height: 15px;
+    width: 15px;
+    margin: 0 2px;
+    background-color: grey;
+    border: none;
+    border-radius: 50%;
+    display: inline-block;
+    opacity: 0.5;
+    box-shadow: 0px 0px 2px 0px grey;
+}
+
+/* Mark the active step: */
+.step.active {
+    opacity: 1;
+}
+
+/* Mark the steps that are finished and valid: */
+.step.finish {
+    background-color: #17a2b8;
+}
+
+
+
+.signup-input {
+    padding: 30px 10px !important;
+    background-color: rgb(250, 250, 250) !important;
+    border-radius: 3px;
+    font-size: 18px;
+    font-weight: 500;
+    border-color: whitesmoke !important;
+    box-shadow: 0px 0px 2px 0px whitesmoke !important;
+    color: grey !important;
+}
+
+.signup-input::placeholder {
+    color: darkgrey !important;
+}
+
+
+.signup-input:focus{
+    background-color: white !important;
+    border-radius: 3px;
+    font-weight: 500;
+    border-color: darkgrey !important;
+    box-shadow: 0px 0px 2px 0px whitesmoke !important;
+    color: grey !important;
+}
+
+
+
+
+.signup-select {
+    padding: 0px 10px !important;
+    background: rgb(250, 250, 250) !important;
+    border-radius: 3px;
+    font-size: 18px;
+    text-align: center !important;
+    height: 62px;
+    font-weight: 500;
+    border-color: whitesmoke !important;
+    box-shadow: 0px 0px 1px 0px whitesmoke !important;
+    color: grey !important;
+}
+
+
+.signup-select:focus {
+    border-color: darkgrey !important;
+    box-shadow: 0px 0px 1px 0px whitesmoke !important;
+    color: grey !important;
+    background: white !important;
+    background-color: white !important;
+
+
+}
+
+
+.signup-select optgroup {
+    background:#17a2b8;
+    color: whitesmoke;
+    letter-spacing: 2px;
+}
+
+.signup-select optgroup option {
+    color: grey;
+    letter-spacing: unset;
+
+}
+
+
+
+.signup-label {
+    color: rgb(32, 32, 32);
+    text-align: center;
+    display: block;
+    font-weight: 600;
+    font-size: 16px;
+    letter-spacing: 1px;
+}
+
+
+.signup-date {
+    background-image: url('../images/icon/calendar-24-2.png') !important;
+    background-repeat: no-repeat !important;
+    background-position: 97% 51% !important;
+    background-size: 24px !important;
+}
+
+
+.signup-date:focus {
+    background-image: url('../images/icon/calendar-24-2.png') !important;
+    background-repeat: no-repeat !important;
+    background-position: 3% 51% !important;
+    background-size: 24px !important;
+}
+
+
+
+
+
+
+.gender-radiobuttons {
+    width: 100%;
+    border-radius: 3px;
+    display: block;
+    padding: 19px 0px;
+    font-weight: 600;
+    text-align: center;
+    cursor: pointer;
+    background: rgb(250, 250, 250) !important;
+    color:grey !important;
+}
+
+
+.gender-radiobuttons.active {
+
+    background: #17a2b8 !important;
+    color: whitesmoke !important;
+}
+
+
+
+.goal-options-col {
+    /* background: url('../images/bgs/tortoise-shell.svg'); */
+    background-color: rgb(249, 249, 249);
+    background-position: bottom;
+    border-radius: 4px;
+    box-shadow: 0px 0px 6px 0px whitesmoke;
+}
+
+
+.goal-options-col h4 {
+    color: rgb(32, 32, 32);
+    margin-bottom: 5px !important;
+    font-size: 18px !important;
+    text-transform: uppercase;
+    font-weight: 500 !important;
+
+}
+
+.goal-options-col p {
+    color: #17a2b8;
+    font-weight: 600;
+    font-size: 15px;
+}
+
+
+
+
+.goal-options-labels {
+    padding-top: 20px;
+    cursor: pointer;
+    position: relative;
+    padding-bottom: 20px;
+    margin-bottom: 0px !important;
+}
+
+
+.goal-options-labels .row {
+    border-left:3px solid lightgrey !important;
+    border-radius: 2px;
+    transition: 0.4s all ease-in-out !important;
+
+
+}
+
+.goal-options-labels.active .row {
+    border-left: 3px solid #17a2b8 !important;
+    border-radius: 2px;
+    transition: 0.4s all ease-in-out !important;
+
+
+}
+
+
+
+
+.goal-options-images {
+    width: 90px;
+    object-fit: contain;
+}
+
+
+.option-active-circle {
+    position: absolute;
+    right: 15px;
+    top: 20px;
+    font-size: 18px;
+    color: lightgrey;
+    transition: 0.4s all ease-in-out !important;
+
+}
+
+
+.goal-options-labels.active .option-active-circle {
+    color: #17a2b8;
+    transition: 0.4s all ease-in-out !important;
+
+}
+
+
+
+.active-option-col {
+    background-color: #f9f9f9;
+    border-radius: 5px;
+    padding-top:20px;
+    padding-bottom:20px;
+    position: relative;
+    cursor: pointer;
+    text-align: center;
+    box-shadow:0px 0px 4px 0px #f9f9f9;
+}
+
+
+.active-option-col h5 {
+    font-size: 17px !important;
+    color: rgb(32, 32, 32);
+}
+
+
+.active-option-col p {
+    color: #4d4d4d;
+    height: 80px;
+    line-height: 1.6rem;
+    padding: 0px 25px;
+}
+
+
+
+.active-option-col span {
+    position: absolute;
+    background-color: lightgrey;
+    top:16px;
+    left:10px;
+    width: 65px;
+    height: 4px;
+    border-radius: 3px;
+    transition: 0.4s all ease-in-out !important;
+
+}
+
+.active-option-col.active span {
+    background-color: #17a2b8;
+    height:8px;
+    transition: 0.4s all ease-in-out !important;
+
+}
+
+
+
+
+
+
+.cal-intake-row div:first-child {
+
+    background-color: #17a2b8;
+    text-align: center;
+    padding: 20px 15px;
+    border-radius: 4px;
+}
+
+.cal-intake-row div:first-child h4 {
+
+    color: white;
+}
+
+.cal-intake-row div:first-child p {
+
+    color: white;
+    border-bottom: 2px solid #e5e5e5;
+    padding-bottom: 12px;
+    margin-bottom: 5px;
+}
+
+
+
+.cal-intake-row div:nth-child(2) {
+
+    background-color: #f9f9f9;
+    text-align: center;
+    padding: 35px 15px;
+    border-radius: 4px;
+}
+
+
+
+/* ------------------- dietary option */
+
+
+.dietary-row {
+    padding: 30px 0px;
+    background: #f9f9f9;
+    box-shadow: 0px 0px 8px lightgrey;
+    border-radius: 4px;
+    cursor: pointer !important;
+    background-color: #f9f9f9;
+    background-size: cover;
+    transition: 0.4s all ease-in-out !important;
+
+    background-position: 50% 100%;
+}
+
+.dietary-labels.active .dietary-row {
+    padding: 30px 0px;
+    background: #f9f9f9;
+    box-shadow: 0px 0px 8px lightgrey;
+    border-radius: 4px;
+    background-color: #f9f9f9;
+    background-image: url(../images/bgs/spectrum-gradient.svg);
+    background-size: cover;
+    background-position: 50% 100%;
+    transition: 0.4s all ease-in-out !important;
+
+}
+
+.dietary-row div:first-child img {
+    width: 70px;
+    height: 70px;
+    object-fit: contain;
+}
+
+.dietary-row div:nth-child(2) h5 {
+    
+}
+
+.dietary-row div:nth-child(3) button {
+    font-size: 26px;
+    color: #cab64b;
+    border: none !important;
+}
+
+.dietary-row div:nth-child(3) button.active {
+    color: #17a2b8;
+}
+
+.dietary-row div:nth-child(3) button:focus {
+    border: none !important;
+    box-shadow: none !important;
+}
+
+.dietary-row div:nth-child(4) p {
+    color: #4d4d4d;
+    line-height: 1.6rem;
+}
+
+
+
+.dietary-parags {
+    height: 0px;
+    overflow: hidden;
+}
+
+
+
+
+
+/* -------------------- pckage options */
+
+
+
+.package-labels {
+    background: #f9f9f9;
+    border: 2px solid #f9f9f9;
+    border-radius: 5px;
+    padding-top: 25px;
+    cursor: pointer;
+    padding-bottom: 25px;
+    display: block;
+    box-shadow: 0px 0px 3px 0px lightgrey;
+}
+
+
+.package-labels.active {
+    border: 2px solid #17a2b8;
+}
+
+.package-labels img {
+    max-width: 100%;
+    max-height: 180px;
+    border-top: 1px solid lightgrey;
+    padding-top:20px;
+    object-fit: contain;
+    object-position: center;
+    margin-bottom: 17px;
+
+}
+
+
+
+/* -------------------- days and meal */
+
+
+.days-label {
+    display: block;
+    padding: 20px 10px;
+    margin-bottom:0px !important;
+    text-align: center;
+    text-transform: uppercase;
+    cursor: pointer;
+    font-weight: 500;
+    background-color: #f9f9f9;
+    border-bottom: 1px solid lightgray;
+    position:relative;
+    transition: 0.2s all ease-in-out !important;
+
+}
+
+
+.days-label:first-of-type {
+    border-top-left-radius: 4px;
+    border-top-right-radius: 4px;
+}
+
+.days-label:last-of-type {
+    border-bottom-left-radius: 4px;
+    border-bottom-right-radius: 4px;
+}
+
+
+.days-label.active {
+    background-color: #17a2b8;
+    color: white;
+    transition: 0.2s all ease-in-out !important;
+
+}
+
+
+
+
+.days-label i {
+    position: absolute;
+    top: 10px;
+    font-size: 14px;
+    left: 10px;
+    opacity: 0;
+    transition: 0.2s all ease-in-out !important;
+
+}
+
+
+.days-label i:first-of-type {
+    color: lightgrey;
+    transition: 0.2s all ease-in-out !important;
+
+}
+
+.days-label.active i:first-of-type {
+    opacity: 0 !important;
+    transition: 0.2s all ease-in-out !important;
+
+}
+
+.days-label.active i:nth-of-type(2) {
+    opacity: 1;
+    transition: 0.2s all ease-in-out !important;
+
+}
+
+
+
+
+.meals-label {
+    display: block;
+    padding: 20px 10px;
+    margin-bottom: 0px !important;
+    cursor: pointer;
+    text-align: center;
+    text-transform: uppercase;
+    position: relative;
+    font-weight: 500;
+    font-size: 15px !important;
+    background-color: #f9f9f9;
+    border-bottom: 1px solid lightgray;
+}
+
+
+.meals-label i{
+    position: absolute;
+    top:10px;
+    font-size: 14px;
+    left: 10px;
+    opacity: 0;
+    transition: 0.2s all ease-in-out !important;
+
+}
+
+
+.meals-label i:first-of-type {
+    color: lightgrey;
+    transition: 0.2s all ease-in-out !important;
+
+}
+
+.meals-label.active i:first-of-type {
+    opacity: 0 !important;
+    transition: 0.2s all ease-in-out !important;
+
+}
+
+.meals-label.active i:nth-of-type(2) {
+    opacity: 1;
+    transition: 0.2s all ease-in-out !important;
+
+}
+
+
+
+
+
+.summary-items {
+    border-bottom: 1px solid lightgrey;
+    /* margin-bottom: 15px; */
+    background-color:#f9f9f9;
+    padding: 27px 15px;
+}
+
+.summary-items:first-of-type {
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+}
+
+.summary-items:last-of-type {
+    border-bottom-left-radius: 5px;
+    border-bottom-right-radius: 5px;
+}
+
+
+
+.summary-items div:first-child {
+    border-right: 1px solid lightgrey;
+}
+
+
+.summary-items h6 {
+    font-size: 16px;
+    margin-bottom: 8px;
+}
+
+.summary-items p {
+    font-size: 15px;
+    margin-bottom:0px;
+    font-weight: 600;
+    color: rgb(94, 94, 94);
+}
+
+
+/* login page */
+
+.bg-image-login {
+    background-size: cover !important;
+    background-position: center !important;
+    background-repeat: no-repeat;
+}
+
+
+.labels-login {
+    font-size: 15px;
+    color:black;
+    font-weight: 500;
+}
+
+
+
+
+
+.search-form {
+    width: 95% !important;
+    margin-right: 40px !important;
+}
+
+
+
+.navbar-brand {
+    width:160px;
+    height: 55px;
+}
+
+.navbar-brand img {
+    width: 100px;
+    height: 55px;
+    object-fit: contain;
+}
+
+
+
+
+
+
+/* small screen */
+
+.navbar-expand {
+    justify-content: center;
+}
+
+.hello-message {
+    font-size: 13px;
+    color: #353535;
+    text-align: left !important;
+    line-height: 1.3rem;
+    letter-spacing: 0.8px;
+    font-weight: 500;
+    text-transform: uppercase;
+}
+
+.m-boxes {
+    background-color: #4aa2ee;
+    color: white;
+    text-align: center;
+    box-shadow: 0px 0px 3px 0px whitesmoke;
+    border-radius: 5px;
+    padding: 10px 10px;
+}
+
+.m-boxes h6 {
+    color: white;
+    font-size: 13px;
+    height: 38px;
+    display:inline-flex;
+    align-items: center;
+    overflow:hidden;
+}
+
+
+.m-boxes p {
+    border-top: 1px solid whitesmoke;
+    padding-top:4px;
+    font-weight: 500;
+}
+
+
+.move-button {
+    color: black;
+    position: absolute;
+    top: 40%;
+    right: 2px;
+    padding:4px !important;
+}
+
+.m-meal-heading {
+    font-size: 17px;
+    text-transform: uppercase;
+    color: #353535;
+}
+
+.m-meal-heading i {
+    color:#4aa2ee;
+    cursor: pointer;
+}
+
+
+.carousal-cols {
+    margin-right: 50px;
+}
+
+.carousal-cols:last-of-type {
+    margin-right: 0px;
+}
+
+.carousal-card-heading {
+    font-size: 15px !important;
+}
+
+.custom-schedule-cards h5 {
+    font-size: 13px !important;
+}
+
+
+.custom-schedule-cards div div div div p {
+    font-size: 13px !important;
+    font-weight: 500 !important;
+}
+
+.custom-schedule-cards div div div div span {
+    font-weight: 500 !important;
+}
+
+
+.m-meal-card {
+
+    width: 100%;
+    border-radius:5px;
+    box-shadow: 0px 0px 3px 0px lightgrey;
+    background-color: white;
+    
+}
+
+
+
+.m-boxes-plan {
+    background-color: white;
+    color: grey;
+    text-align: center;
+    box-shadow: 0px 0px 3px 0px whitesmoke;
+    border-radius: 5px;
+    padding: 10px 10px;
+}
+
+.m-boxes-plan h6 {
+    color: grey;
+    font-size: 12px;
+    margin-bottom: 10px;
+}
+
+.m-boxes-plan p {
+    font-size: 12px;
+    font-weight: 500;
+    border-top: 1px solid lightgrey;
+    padding-top:4px;
+    color: #4aa2ee;
+}
+
+
+.general-info-row button i {
+    color: unset;
+}
+
+
+.general-info-row i {
+    color: #4aa2ee;
+}
+
+
+.footer {
+    background-color: transparent !important;
+    border: none !important;
+    padding-bottom: 90px;
+}
+
+
+.edit-profile-row input, .edit-profile-row select {
+    color: dimgrey !important;
+}
+
+
+.footer .page__container {
+    padding: 0px 12px !important;
+}
+
+
+/* --------------- chat */
+
+
+.chat-message-wrapper {
+    height: 87%;
+    overflow: auto;
+    width: 100%;
+}
+
+
+.chat-message-receiver {
+    display: block;
+}
+
+.chat-message-receiver p {
+    background-color: white;
+    color: rgb(32, 32, 32);
+    display: inline-block;
+    padding: 9px 8px 9px 14px;
+    border-radius: 7px;
+    border-top-left-radius: 0px;
+}
+
+
+
+.chat-message-sender {
+    display: block;
+    text-align: right;
+}
+
+
+.chat-message-sender p {
+    background-color: #4aa2ee;
+    color: white;
+    text-align: right;
+    display: inline-block;
+    padding: 9px 14px 9px 8px;
+    border-radius: 7px;
+    border-top-right-radius: 0px;
+}
+
+
+
+/* ----------- navbar menu */
+
+
+.m-navbar-row a {
+    border:none !important;
+    background-color: none !important;
+    border-bottom: 1px solid #4aa2ee !important;
+    border-radius: 0px !important;
+}
+
+.m-navbar-row a:hover {
+    border-radius: 3px !important;
+}
+
+.m-navbar-row a.btn-primary {
+    border-radius: 3px !important;
+}
+
+
+
+/* ----------- ads */
+
+.hello-word {
+    font-size: 24px;
+    font-style: oblique;
+    color: #4aa2ee;
+    letter-spacing: 1.4px;
+    margin-right: 3px;
+}
+
+
+
+/* ---- my plan */
+
+.select2-selection {
+    height: 120px !important;
+    overflow:auto !important;
+}
